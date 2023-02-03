@@ -181,4 +181,24 @@
     justify-content: center;
     align-items: center;
   }
+  /* -------------button-------------- */
+.button {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+/* -------------foto-------------- */
+.foto {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.foto-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  
+}
 }
