@@ -153,14 +153,21 @@
           </ul>
           <ul class="foto-list list">
             <li class="foto-item">
-              <div class="foto-imeges">
-                <img
+              <div class="foto-images">
+                <picture>
+                  <source srcset="">
+                  <source srcset="./images/img-t1.jpg 1x, ./images/img-t1@2x 2x"  media="(min-width: 768px)">
+                  <source srcset="./images/img-m1.jpg 1x, ./images/img-m1@2x 2x"  media="(min-width: 320px)">
+                      
+                  <img
                   src="./images/img-1.jpg"
                   alt=""
                   width="360"
                   height="300"
                   class="img"
                 />
+                </picture>
+                
                 <p class="text-images">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -172,7 +179,7 @@
                 <p class="foto-skill">App</p>
               </div>
             </li>
-            <li class="foto-item">
+            <li c >
               <div class="foto-imeges">
                 <img
                   src="./images/img-2.jpg"
