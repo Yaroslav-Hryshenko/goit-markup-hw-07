@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) {
+  .conteiner {
+    max-width: 428px;
+    
+  }
+  /* ---------------EVENT------------- */
+  .event-conteiner{
+    max-width: 530px;
+    margin: 0 auto;
+  }
+}
