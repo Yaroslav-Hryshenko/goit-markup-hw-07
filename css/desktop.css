@@ -1,8 +1,14 @@
 @media screen and (min-width: 1200px) {
   .conteiner {
-    max-width: 1128px;
+    max-width: 1158px;
   }
 /* --------------HEADER----------- */
+  .header {
+
+  padding-top: 24px;
+  padding-bottom: 28px;
+ 
+}
   .header-contakt {
     display: flex;
     flex-direction: row;
@@ -68,7 +74,7 @@
   /* -------------gadgets-------------- */
 
   .gadgets {
-    display: unset;
+    display: block;
     padding-bottom: 120px;
   }
   .gadgets-title {
@@ -93,9 +99,8 @@
         rgba(77, 90, 229, 0.1),
         rgba(77, 90, 229, 0.1)
       ),
-      url(2368.jpg);
-    background-blend-mode: soft-light, normal;
-    border: 1px solid #e7e9fc;
+    
+    
   }
   /*------------------ TEAM-----------------*/
   .team {
@@ -103,7 +108,9 @@
     padding-bottom: 120px;
   }
   .team-conteiner {
-    width: 1128px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .team-list {
     flex-wrap: nowrap;
@@ -120,6 +127,7 @@
     padding-bottom: 120px;
   }
   .test-list {
+    width: 1128px;
     gap: 24px;
   }
   .test-item {
@@ -148,6 +156,7 @@
   }
   .footer-wrap {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 /* -------------foto-------------- */
 .foto {
