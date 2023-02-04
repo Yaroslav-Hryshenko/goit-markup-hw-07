@@ -149,6 +149,21 @@
   .footer-wrap {
     margin-right: 120px;
   }
-
+/* -------------foto-------------- */
+.foto {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+/* .foto-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  
+} */
+ .foto-item {
+    width: calc((100% - 48px) / 3);
+   
+  }
  
 }

@@ -201,4 +201,8 @@
   column-gap: 24px;
   
 }
+ .foto-item {
+    width: calc((100% - 24px) / 2);
+   
+  }
 }
