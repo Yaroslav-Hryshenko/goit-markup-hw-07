@@ -18,7 +18,9 @@
   /* ------------------EVENT---------------- */
 
   .event {
-    background-image: var(--bg-gradient), url(../images/people-office\ 1.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: var(--bg-gradient), url(../images/people-office1.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -26,7 +28,7 @@
     (min-resolution: 2dppx) {
     .event {
       background-image: var(--bg-gradient),
-        url(../images/people-office\ 1@2x.jpg);
+        url(../images/people-office1@2x.jpg);
     }
     .event-conteiner {
       max-width: 530px;

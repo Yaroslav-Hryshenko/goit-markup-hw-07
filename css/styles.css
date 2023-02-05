@@ -119,7 +119,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
+  
 
  }
 
@@ -194,6 +194,9 @@ color: var(--logo-color);
  margin-bottom: 40px;
 
  
+}
+.mobil-link{
+  color: var(--title-color);
 }
 
 .mobil-link.active::after {
